@@ -1,0 +1,44 @@
+.vh100{
+
+     height: calc(100vh - 86px) ;
+
+
+
+}
+
+form {
+
+background-color: #24353F;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+   border-radius: 8px;
+   color: white;
+
+}
+
+label {
+    color: black;
+}
+
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(270deg, #af758c, #ff758c, #ff5f5d, #fff);
+      background-size: 400% 400%; 
+      animation: gradient-animation 10s ease infinite; 
+    }
+
+    @keyframes gradient-animation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .massage,nav {
+
+background-color: #24353F;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+   border-radius: 8px;
+   color: white;
+
+    }
